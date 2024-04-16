@@ -429,3 +429,19 @@ fluent-data-grid-cell.no-ellipsis {
 .endpoint-button::part(control) {
     padding: calc(((var(--design-unit) * 0.5) - var(--stroke-width)) * 1px) calc((var(--design-unit) - var(--stroke-width)) * 1px);
 }
+
+.resource-tabs{
+    grid-area: main;
+}
+
+.resource-tabs fluent-tab:first-child {
+    margin-left: calc(var(--design-unit) * 2px);
+}
+
+.resource-graph .texts {
+    cursor: pointer;
+}
+
+.resource-graph .nodes {
+    cursor: pointer;
+}
